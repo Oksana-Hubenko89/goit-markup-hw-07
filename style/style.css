@@ -141,9 +141,9 @@ h6 {
 .hero-modal {
   display: block;
   position: absolute;
-  top: 23%;
-  left: 30%;
-  transform: translate(-30%;-23%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
   background-color: var(--primary-white-color);
   min-width: 528px;
   min-height: 521px;
@@ -280,7 +280,7 @@ textarea {
 }
 .checkbox:checked + .checkbox-icon {
   background-color: var(--accent-color);
-  background-image: url("/image/icon-check.svg");
+  background-image: url("../image/icon-check.svg");
   background-size: contain;
   border-color: transparent;
   background-origin: border-box;
