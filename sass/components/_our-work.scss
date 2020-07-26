@@ -1,0 +1,24 @@
+.primory-fone {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    background-color: $hero-fone;
+  }
+}
+
+.hero-three-else {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: $primary-white-color;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
