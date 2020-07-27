@@ -6,7 +6,7 @@ html {
   display: none;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-default;
   cursor: pointer;
 }
 img {
@@ -98,9 +98,16 @@ main {
   font-size: 14px;
   line-height: 1.14px;
   text-transform: uppercase;
-  text-align: center;
 }
 
-.else-color-hero {
-  color: $text-title-button-secondary;
+.hero-three-else {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: $primary-white-color;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

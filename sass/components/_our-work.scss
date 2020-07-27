@@ -10,15 +10,6 @@
     background-color: $hero-fone;
   }
 }
-
-.hero-three-else {
-  display: inline-block;
-  text-align: center;
-  margin: 0;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  color: $primary-white-color;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+.else-color-hero {
+  color: $text-title-button-secondary;
 }
